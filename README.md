@@ -19,7 +19,7 @@ the source data primary key ``geonameid`` is provided.
 [geonames]: http://www.geonames.org/
 [datapackage]: http://dataprotocols.org/data-packages/
 
-# Repository
+## Repository
 A repository for world cities is a centralized location where data about cities is stored, organized, and made available for use. The text you provided describes a specific repository for a list of major cities, explaining how the data was compiled and what information it contains.
 
 Repository Description
