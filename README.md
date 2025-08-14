@@ -19,8 +19,22 @@ the source data primary key ``geonameid`` is provided.
 [geonames]: http://www.geonames.org/
 [datapackage]: http://dataprotocols.org/data-packages/
 
+# Repository
+A repository for world cities is a centralized location where data about cities is stored, organized, and made available for use. The text you provided describes a specific repository for a list of major cities, explaining how the data was compiled and what information it contains.
 
-## Preparation
+Repository Description
+The repository contains a list of major cities around the world, specifically those with a population of 15,000 inhabitants or more. The data is sourced from Geonames, a comprehensive geographical database.
+
+Key Data Fields
+Each city entry includes several key pieces of information to ensure accuracy and reduce ambiguity:
+
+- *name:* The name of the city.
+- *country:* The country where the city is located.
+- *subcountry:* The administrative division within the country, such as a state, region, or province. This helps differentiate cities with the same name in the same country. For cities that are also entire states (like Vatican City or Singapore), this field is marked as N/A.
+- *geonameid:* A unique primary key from the Geonames database for each city, which resolves any remaining ambiguities (approximately 60 at the time the text was written).
+- *timezone:* The timezone of the city.
+
+The repository's data is formatted as a CSV (Comma-Separated Values) file named world-cities.csv. The headers for this file are `name,country,subcountry,geonameid,timezone`.
 
 ## Preparation
 
